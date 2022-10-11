@@ -1,0 +1,39 @@
+Arguments: 
+  /home/ludo/.nvm/versions/node/v16.14.0/bin/node /usr/share/yarn/bin/yarn.js add typescript
+
+PATH: 
+  /home/ludo/.nvm/versions/node/v16.14.0/bin:/home/ludo/.local/share/pnpm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ludo/Codekraft/lib/cli:/home/ludo/Android/Sdk/emulator:/home/ludo/Android/Sdk/tools:/home/ludo/Android/Sdk/tools/bin:/home/ludo/Android/Sdk/platform-tools:/home/ludo/Android/Sdk/platform-tools/adb:/home/ludo/snap/bin:/home/ludo/.yarn/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ludo/Projects/synctube-api/package.json: Unexpected token } in JSON at position 216
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "synctube-api",
+    "version": "1.0.0",
+    "main": "server.ts",
+    "repository": "https://github.com/ludovic-noirault/synctube-pwa.git",
+    "author": "Ludovic Noirault",
+    "license": "MIT",
+    "private": true,
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
